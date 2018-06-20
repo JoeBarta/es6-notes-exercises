@@ -6,6 +6,7 @@ var products = [
 ];
 var filteredProducts = [];
 
+// es5 version aka the old way
 for ( var i = 0; i < products.length; i++) {
     if (products[i].type === 'fruit') {
         filteredProducts.push(products[i]);

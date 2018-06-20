@@ -2,7 +2,7 @@
 
 var numbers = [1,2,3];
 var doubledNumbers = [];
-
+// es5 version
 for (var i = 0; i < numbers.length; i++) {
     doubledNumbers.push(numbers[i] * 2);
 }
