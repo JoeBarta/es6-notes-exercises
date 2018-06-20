@@ -1,0 +1,3 @@
+// ES6  = ECMA Script v6
+we write { ES6 } code - run it through { Babel } -> which converts it to { ES5 }
+
