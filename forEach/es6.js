@@ -1,9 +1,6 @@
-var colors = ['red', 'blue' , 'green'];
+// only containting es6 without es5 comparisons
 
-// es5 code 'aka' the old stuff
-for ( var i = 0; i < colors.length; i++ ) {
-    console.log(colors[i]);
-}
+var colors = ['red', 'blue' , 'green'];
 
 // es6 - still using the colors array we made before
 colors.forEach(function(color) { // pass in an anonymus function, this function gets called 1 time for every element in the array
